@@ -2,7 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router,Route} from 'react-router-dom'
 import './App.css';
 import Signup from './Pages/Signup'
-
+import Login from './Pages/Login'
 /**
  * ?  =====Import Components=====
  */
@@ -17,6 +17,9 @@ function App() {
       </Route>
       <Route path='/signup'>
       <Signup />
+      </Route>
+      <Route path='/login'>
+      <Login/>
       </Route>
       </Router>
     </div>
